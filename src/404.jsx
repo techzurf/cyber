@@ -303,6 +303,8 @@ const htmlContent = `<!-- Preloader Start -->
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>`
 
-export default function 404() {
-  return <div dangerouslySetInnerHTML={__html: htmlContent} />;
+export default function NotFound() {
+
+  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+
 }
