@@ -1778,5 +1778,6 @@ const htmlContent = `<!-- Preloader Start -->
 	<script src="../../demo.awaikenthemes.com/assets/js/theme-panel.js"></script>`
 
 export default function Index() {
-  return <div dangerouslySetInnerHTML={__html: htmlContent} />;
+  return <div dangerouslySetInnerHTML={{ __html: htmlContent }} />;
+
 }
